@@ -1,0 +1,14 @@
+[project]
+name = "tg-bot-converter-files"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "aiofile>=3.9.0",
+    "aiogram==3.13.1",
+    "environs==11.0.0",
+    "fpdf2==2.8.3",
+    "img2pdf==0.6.1",
+    "pypdf2==3.0.1",
+    "python-docx>=1.1.2",
+]
