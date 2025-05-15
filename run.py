@@ -18,7 +18,7 @@ async def main():
 
     dp.update.middleware(ResetStateMiddleware())  # удаление состояний при вводе команд
     dp.update.middleware(RemoveReplyMarkupMiddleware())  # удаление инлайн клавиатур у Message при новом Message
-    # dp.message.middleware(MediaGroupBlockerMiddleware())  # блокировка отправки сгруппированных файлов
+    dp.message.middleware(MediaGroupBlockerMiddleware())  # блокировка отправки сгруппированных файлов
 
     dp.include_routers(main_menu.router, get_files.router, set_name_to_file_handler.router)
 

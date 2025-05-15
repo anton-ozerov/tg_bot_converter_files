@@ -9,6 +9,7 @@ dependencies = [
     "environs==11.0.0",
     "fpdf2==2.8.3",
     "img2pdf==0.6.1",
+    "openpyxl>=3.1.5",
     "pypdf2==3.0.1",
     "python-docx>=1.1.2",
 ]
